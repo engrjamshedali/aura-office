@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="aoGrad" x1="0" y1="120" x2="120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="55%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#9333EA" />
+    </linearGradient>
+    <linearGradient id="aoGlow" x1="20" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#4F46E5" flood-opacity="0.32" />
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="28" fill="url(#aoGrad)" filter="url(#shadow)" />
+  <rect x="10" y="10" width="100" height="100" rx="26" stroke="url(#aoGlow)" stroke-width="2" />
+  <text x="60" y="75" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="46" letter-spacing="-2.5">AO</text>
+  <circle cx="92" cy="30" r="6" fill="#A5B4FC" />
+</svg>
